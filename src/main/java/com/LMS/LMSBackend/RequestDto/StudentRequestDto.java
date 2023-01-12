@@ -1,4 +1,4 @@
-package com.LMS.studentcard.RequestDto;
+package com.LMS.LMSBackend.RequestDto;
 
 
 import jakarta.persistence.Column;

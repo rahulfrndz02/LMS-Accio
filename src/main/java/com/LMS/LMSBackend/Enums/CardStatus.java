@@ -1,4 +1,4 @@
-package com.LMS.studentcard.Enums;
+package com.LMS.LMSBackend.Enums;
 
 
 public enum CardStatus {

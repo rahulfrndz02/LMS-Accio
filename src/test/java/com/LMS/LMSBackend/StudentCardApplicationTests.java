@@ -1,4 +1,4 @@
-package com.LMS.studentcard;
+package com.LMS.LMSBackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

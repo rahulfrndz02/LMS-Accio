@@ -1,4 +1,4 @@
-package com.LMS.studentcard.Models;
+package com.LMS.LMSBackend.Models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -9,7 +9,6 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.util.Date;
-
 
 @Entity
 @Table(name="student")
@@ -36,8 +35,10 @@ public class Student {
     @CreationTimestamp
     private Date createdOn;
 
+
     @OneToOne(mappedBy = "student" ,cascade = CascadeType.ALL)
     private Card card;
+
 
     @UpdateTimestamp
     private Date updatedOn;

@@ -1,4 +1,4 @@
-package com.LMS.studentcard.Models;
+package com.LMS.LMSBackend.Models;
 
 
 public class UpdateCountry {

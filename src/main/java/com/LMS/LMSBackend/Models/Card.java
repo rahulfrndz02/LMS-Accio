@@ -1,10 +1,11 @@
-package com.LMS.studentcard.Models;
+package com.LMS.LMSBackend.Models;
 
-
-import com.LMS.studentcard.Enums.CardStatus;
+import com.LMS.LMSBackend.Enums.CardStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.List;
 
 @Entity
 @Table
@@ -24,5 +25,8 @@ public class Card {
     @OneToOne
     @JoinColumn
     private Student student;
+
+    @OneToMany(mappedBy = "card",cascade = CascadeType.ALL)
+    private List<Book> booksIssued;
 
 }

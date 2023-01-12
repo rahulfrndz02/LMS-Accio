@@ -1,7 +1,7 @@
-package com.LMS.studentcard.Repository;
+package com.LMS.LMSBackend.Repository;
 
 
-import com.LMS.studentcard.Models.Student;
+import com.LMS.LMSBackend.Models.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

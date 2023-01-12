@@ -1,4 +1,4 @@
-package com.LMS.studentcard;
+package com.LMS.LMSBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
